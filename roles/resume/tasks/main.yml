@@ -1,0 +1,14 @@
+---
+# main.yml - Common Tasks for maxamillion.so
+#
+
+- name: Install httpd for resume hosting
+  yum: pkg="{{item}}" state=installed
+  with_items:
+    - httpd
+
+- name: Upload resume
+  copy: src=resume dest=/var/www/html/resume
+
+- name: Start and enable httpd
+  service: name=httpd state=started enabled=yes

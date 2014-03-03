@@ -1,0 +1,11 @@
+---
+# This Playbook will setup maxamillion.so from scratch
+
+- hosts: all
+  user: root
+  accelerate: true
+  roles:
+   - role: common
+   - role: resume
+   - role: users
+   - role: iptables

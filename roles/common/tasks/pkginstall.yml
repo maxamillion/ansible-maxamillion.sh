@@ -1,0 +1,58 @@
+---
+# pkginstall.yml - install packages
+- name: Install Packages
+  yum: pkg={{ item }} state=installed
+  with_items:
+    - fedora-packager
+    - fedora-review
+    - fedora-review-tests
+    - mutt
+    - nmap
+    - sysstat
+    - vim-enhanced
+    - tmux
+    - screen
+    - git
+    - rpm-build
+    - mock
+    - ruby
+    - ruby-irb
+    - ruby-devel
+    - rubygems
+    - man-pages
+    - kernel-doc
+    - rsync
+    - wget
+    - tito
+    - rpmdevtools
+    - rpmconf
+    - htop
+    - powertop
+    - iotop
+    - fedpkg
+    - scl-utils
+    - scl-utils-build
+    - spec2scl
+    - setools-console
+    - strace
+    - euca2ools
+    - tig
+    - lm_sensors
+    - yum-plugin-security 
+    - autoconf
+    - automake
+    - libtool
+    - intltool
+    - gnupg
+    - testdisk
+    - tcpdump
+    - httpd-tools
+    - lsscsi
+    - irssi
+    - policycoreutils-python
+    - setroubleshoot-server
+    - ntp
+    - ntpdate
+    - bind-utils
+  tags:
+    - pkginstall

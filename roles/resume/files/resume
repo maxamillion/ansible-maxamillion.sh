@@ -1,0 +1,70 @@
+Adam J. Miller
+3613 Bratton Ridge Crossing
+Austin, TX 78728
+
+Cell: (817) 205-3226
+Email: maxamillion@fedoraproject.org
+
+Experience:
+  Red Hat Inc. - OpenShift Team
+  Austin, TX (Remote)
+  Position: Senior Software Engineer - OpenShift Release Engineer
+  April 2012 - Current
+    - Release Engineering
+    - Build, testing, and verification automation.
+    - RPM Packaging, Docker build, CI and Production Release Automation
+    - Continuous Integration Support
+
+  Dell Inc. - Enterprise Solutions Engineering
+  Austin, TX
+  Position: Systems Engineer
+  November 2010 - March 2012
+    - Profile performance of hardware configurations in order to create
+      Tested and Validation configurations for Oracle Database solutions
+      based on Red Hat Enterprise Linux.
+    - Develop automated utilities to make setup, configuration, assessment
+      and maintenance of Oracle Database solutions on Red Hat Enterprise
+      Linux easier for customers.
+    - Research performance tuning solutions among an array of different 
+      server and storage configurations as well as next generation 
+      technologies that can be used in Dell Enterprise Solutions offerings.
+
+  University Computer Services - Sam Houston State University
+  Huntsville, TX               
+  Position: System Analyst I
+  February 2008 - November 2010
+    - Design, implement, manage and maintain server solutions based on Red
+      Hat Enterprise Linux in various configurations providing many
+      different services for campus usage by staff, faculty and students
+    - Perform packaging of RPM formatted software packages for use at work
+      as well as contributions to Fedora Extra Packages for Enterprise Linux
+
+Education:
+  Sam Houston State University - M.S. - Information Assurance and Security
+    - Relevant coursework includes: Operating System Security, Database
+      Security, Organization System Security, Risk Assessment and
+      Financial System Security, Disaster Recovery, Malware, Digital
+      Forensics Investigation
+  
+  Sam Houston State University - B.S. - Computer Science
+    - ABET Accredited Degree Plan
+    - Relevant coursework includes: Compiler Theory, Operating Systems,
+      Programming Languages, Databases, Data Structures, Software
+      Engineering, Cryptography
+
+  RHCE - Red Hat Enterprise Linux version 6
+    - Certificate Number: 110-008-810
+
+  Qualifications:
+    - Comfortable programming in Python, Ruby, and scripting in Bash.
+    - Experience using Ansible and Puppet configuration management systems.
+    - Experience Packaging RPMs and working with Docker containers.
+    - GNU/Linux user since Red Hat Linux 7.0
+
+  Affiliations:
+    - Fedora QA community member
+    - Fedora Packager
+    - Fedora SIGs: EPEL, XFCE, KDE, Cloud, Spins, Ruby, Go
+    - Fedora Ambassador
+    - Red Hat Shadowman Tattoo on left forearm
+

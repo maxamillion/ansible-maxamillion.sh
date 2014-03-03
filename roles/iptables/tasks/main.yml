@@ -1,0 +1,9 @@
+---
+# main.yml - configure iptables
+- name: Copy iptables rules
+  copy: src=iptables dest=/etc/sysconfig/iptables
+  notify:
+    - restart iptables
+
+- name: Start and Enable iptables
+  service: name=iptables state=started enabled=yes

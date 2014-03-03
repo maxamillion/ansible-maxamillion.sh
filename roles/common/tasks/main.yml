@@ -1,0 +1,9 @@
+---
+# main.yml - Common Tasks for maxamillion.so
+#
+
+- include: prereqs.yml
+- include: selinux.yml
+- include: setupepel.yml
+- include: pkginstall.yml
+- include: ntp.yml
