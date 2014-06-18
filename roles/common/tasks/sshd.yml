@@ -11,3 +11,15 @@
     - restart sshd
   tags:
     - sshd
+
+- name: Ensure firewalld:ssh is open perminantly
+  firewalld: >
+    service=ssh
+    state=enabled
+    permanent=true
+
+- name: Ensure firewalld:ssh is open currently
+  firewalld: >
+    service=ssh
+    state=enabled
+    permanent=false
