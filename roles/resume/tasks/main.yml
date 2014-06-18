@@ -17,15 +17,3 @@
     name=httpd 
     state=started 
     enabled=yes
-
-- name: Ensure firewalld:http is open perminantly
-  firewalld: >
-    service=http
-    state=enabled
-    permanent=true
-
-- name: Ensure firewalld:http is open currently
-  firewalld: >
-    service=http
-    state=enabled
-    permanent=false
