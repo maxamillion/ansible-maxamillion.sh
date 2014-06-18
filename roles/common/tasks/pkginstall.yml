@@ -3,9 +3,11 @@
 - name: Install Packages
   yum: pkg={{ item }} state=installed
   with_items:
+    - bash-completion
     - fedora-packager
     - fedora-review
     - fedora-review-tests
+    - chrony
     - mutt
     - nmap
     - sysstat

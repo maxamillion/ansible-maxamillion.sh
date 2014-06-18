@@ -1,11 +1,13 @@
 ---
 # This Playbook will setup maxamillion.so from scratch
 
+# MAKE SURE TO ENABLE PIPELINING IN /etc/ansible/ansible.cfg
+# pipelining = True
+
 - hosts: all
   user: root
-  accelerate: true
   roles:
    - role: common
    - role: resume
    - role: users
-   - role: iptables
+#   - role: iptables

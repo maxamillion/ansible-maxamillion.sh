@@ -4,6 +4,6 @@
 
 - include: prereqs.yml
 - include: selinux.yml
-- include: setupepel.yml
 - include: pkginstall.yml
-- include: ntp.yml
+- include: timedatectl.yml
+- include: sshd.yml

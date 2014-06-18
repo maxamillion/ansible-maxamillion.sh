@@ -1,7 +1,13 @@
 ---
 # sshd.yml - configure sshd
 - name: Configure sshd_config
-  copy: src=sshd_config dest=/etc/ssh/sshd_config 
-        owner=root group=root mode=0600
+  lineinfile: >
+    backup=yes
+    state=present
+    dest=/etc/ssh/sshd_config
+    regexp='^#?PermitRootLogin (yes|no|Yes|No|without-password)'
+    line='PermitRootLogin without-password'
   notify:
     - restart sshd
+  tags:
+    - sshd

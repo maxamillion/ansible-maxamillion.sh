@@ -1,4 +1,6 @@
 ---
 # selinux.yml - set system wide selinux stuff
 - name: Enable SELinux - enforcing
-  selinux: policy=targeted state=enforcing
+  selinux: >
+    policy=targeted
+    state=enforcing
