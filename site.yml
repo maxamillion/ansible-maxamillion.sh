@@ -8,6 +8,7 @@
   user: root
   roles:
    - role: common
+   - role: docker
    - role: resume
    - role: users
    - role: iptables

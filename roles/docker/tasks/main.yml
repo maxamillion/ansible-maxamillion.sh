@@ -1,0 +1,14 @@
+---
+# main.yml - configure docker
+#
+
+- name: Install docker Packages
+  yum: pkg={{ item }} state=installed
+  with_items:
+    - docker
+
+- name: Start and Enable iptables
+  service: >
+    name=docker
+    state=started
+    enabled=yes
