@@ -8,6 +8,13 @@
     state=stopped
     enabled=no
 
+- name: Install iptables Packages
+  yum: pkg={{ item }} state=installed
+  with_items:
+    - iptables
+    - iptables-services
+    - iptables-utils
+
 - name: Copy iptables rules
   copy: src=iptables dest=/etc/sysconfig/iptables
   notify:

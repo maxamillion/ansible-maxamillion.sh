@@ -56,7 +56,5 @@
     - ntp
     - ntpdate
     - bind-utils
-    - iptables-services
-    - iptables-utils
   tags:
     - pkginstall

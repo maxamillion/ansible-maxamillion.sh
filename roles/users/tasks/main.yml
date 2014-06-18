@@ -7,7 +7,7 @@
     name=admiller 
     state=present 
     uid=1000 
-    groups=mock 
+    groups=mock,docker
     append=yes
 
 - name: Ensure admiller ~/.ssh dir exists
