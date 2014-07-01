@@ -1,5 +1,17 @@
 ---
 # sshd.yml - configure sshd
+
+- name: Ensure openssh-server is installed
+  yum: >
+    pkg=openssh-server
+    state=installed
+
+- name: Ensure sshd enabled and running
+  service: >
+    name=sshd
+    state=started
+    enabled=yes
+
 - name: Configure sshd_config
   lineinfile: >
     backup=yes
