@@ -3,6 +3,8 @@
 - name: Install Packages
   yum: pkg={{ item }} state=installed
   with_items:
+    - kernel
+    - kernel-doc
     - bash-completion
     - fedora-packager
     - fedora-review
@@ -21,6 +23,8 @@
     - ruby-irb
     - ruby-devel
     - rubygems
+    - rubygem-pry
+    - man
     - man-pages
     - kernel-doc
     - rsync
