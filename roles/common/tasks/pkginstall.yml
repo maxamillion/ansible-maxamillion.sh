@@ -107,6 +107,8 @@
     - asciidoc-doc
     - golang
     - golang-vim
+    - golang-vet
+    - golang-gotype
 
  
   tags:
