@@ -113,7 +113,6 @@
     - golang-vet
     - golang-gotype
     - cryptsetup
-    - w3m
 
  
   tags:
