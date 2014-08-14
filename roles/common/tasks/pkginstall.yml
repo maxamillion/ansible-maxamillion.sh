@@ -112,6 +112,7 @@
     - golang-vim
     - golang-vet
     - golang-gotype
+    - cryptsetup
 
  
   tags:
