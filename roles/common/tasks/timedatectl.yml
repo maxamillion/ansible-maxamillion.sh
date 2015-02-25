@@ -7,10 +7,10 @@
     - chrony
 
 - name: Enable chronyd
-  service: >
-    name=chronyd
-    state=started
-    enabled=yes
+  service:
+    name: chronyd
+    state: started
+    enabled: yes
 
 - name: Set TimeZone in /etc/localtime
   command: /usr/bin/timedatectl set-timezone America/Chicago

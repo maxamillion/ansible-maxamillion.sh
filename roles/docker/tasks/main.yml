@@ -8,7 +8,7 @@
     - docker-io
 
 - name: Start and Enable iptables
-  service: >
-    name=docker
-    state=started
-    enabled=yes
+  service:
+    name: docker
+    state: started
+    enabled: yes

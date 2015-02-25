@@ -2,23 +2,23 @@
 # sshd.yml - configure sshd
 
 - name: Ensure openssh-server is installed
-  yum: >
-    pkg=openssh-server
-    state=installed
+  yum:
+    pkg: openssh-server
+    state: installed
 
 - name: Ensure sshd enabled and running
-  service: >
-    name=sshd
-    state=started
-    enabled=yes
+  service:
+    name: sshd
+    state: started
+    enabled: yes
 
 - name: Configure sshd_config
-  lineinfile: >
-    backup=yes
-    state=present
-    dest=/etc/ssh/sshd_config
-    regexp='^#?PermitRootLogin (yes|no|Yes|No|without-password)'
-    line='PermitRootLogin without-password'
+  lineinfile:
+    backup: yes
+    state: present
+    dest: /etc/ssh/sshd_config
+    regexp: '^#?PermitRootLogin (yes|no|Yes|No|without-password)'
+    line: 'PermitRootLogin without-password'
   notify:
     - restart sshd
   tags:

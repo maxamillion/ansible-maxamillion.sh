@@ -10,6 +10,6 @@
     - selinux-policy-devel
 
 - name: Enable SELinux - enforcing
-  selinux: >
-    policy=targeted
-    state=enforcing
+  selinux:
+    policy: targeted
+    state: enforcing

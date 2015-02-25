@@ -8,12 +8,12 @@
     - httpd
 
 - name: Upload resume
-  copy: >
-    src=resume 
-    dest=/var/www/html/resume
+  copy:
+    src: resume
+    dest: /var/www/html/resume
 
 - name: Start and enable httpd
-  service: > 
-    name=httpd 
-    state=started 
-    enabled=yes
+  service:
+    name: httpd
+    state: started
+    enabled: yes
