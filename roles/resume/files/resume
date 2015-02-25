@@ -30,7 +30,7 @@ Experience:
       technologies that can be used in Dell Enterprise Solutions offerings.
 
   University Computer Services - Sam Houston State University
-  Huntsville, TX               
+  Huntsville, TX
   Position: System Analyst I
   February 2008 - November 2010
     - Design, implement, manage and maintain server solutions based on Red
@@ -45,7 +45,7 @@ Education:
       Security, Organization System Security, Risk Assessment and
       Financial System Security, Disaster Recovery, Malware, Digital
       Forensics Investigation
-  
+
   Sam Houston State University - B.S. - Computer Science
     - ABET Accredited Degree Plan
     - Relevant coursework includes: Compiler Theory, Operating Systems,
@@ -68,3 +68,12 @@ Education:
     - Fedora Ambassador
     - Red Hat Shadowman Tattoo on left forearm
 
+  Conference Presentations:
+    - Red Hat Summit 2014
+      Software collections: Keeping pace without sacrificing platform stability
+    - AnsibleFest San Francisco 2013
+      Interstellar Communications: Deploying OpenShift Origin with Ansible
+    - Red Hat Summit 2013
+      Implementing a Distributed Private PaaS with OpenShift Enterprise
+    - Red Hat Summit 2012
+      Oracle RAC 11gR2 on Red Hat Enterprise Linux 6
