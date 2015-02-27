@@ -61,14 +61,14 @@ Education:
     - Experience Packaging RPMs and working with Docker containers.
     - GNU/Linux user since Red Hat Linux 7.0
 
-  Affiliations:
+Affiliations:
     - Fedora QA community member
     - Fedora Packager
     - Fedora SIGs: EPEL, XFCE, KDE, Cloud, Spins, Ruby, Go
     - Fedora Ambassador
     - Red Hat Shadowman Tattoo on left forearm
 
-  Conference Presentations:
+Conference Presentations:
     - Red Hat Summit 2014
       Software collections: Keeping pace without sacrificing platform stability
     - AnsibleFest San Francisco 2013
@@ -77,3 +77,7 @@ Education:
       Implementing a Distributed Private PaaS with OpenShift Enterprise
     - Red Hat Summit 2012
       Oracle RAC 11gR2 on Red Hat Enterprise Linux 6
+
+Writing:
+    - Implementing OpenShift
+      Published by PacktPub: ISBN13 9781782164722
