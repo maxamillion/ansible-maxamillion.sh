@@ -6,10 +6,18 @@ Cell: (817) 205-3226
 Email: maxamillion@fedoraproject.org
 
 Experience:
+  Red Hat Inc. - Fedora Engineering
+  Fort Worth, TX (Remote)
+  Position: Senior Software Engineer
+  April 2015 - Current
+    - Release Engineering
+    - Project Atomic Fedora, Fedora Docker
+    - Release Automation for Fedora.Next and Atomic
+
   Red Hat Inc. - OpenShift Team
   Fort Worth, TX (Remote)
   Position: Senior Software Engineer - OpenShift Release Engineer
-  April 2012 - Current
+  April 2012 - April 2015
     - Release Engineering
     - Build, testing, and verification automation.
     - RPM Packaging, Docker build, CI and Production Release Automation
@@ -69,6 +77,8 @@ Affiliations:
     - Red Hat Shadowman Tattoo on left forearm
 
 Conference Presentations:
+    - Red Hat Summit 2015
+      Immutable Infrastructure, Containers, and the future of Microservices
     - Red Hat Summit 2014
       Software collections: Keeping pace without sacrificing platform stability
     - AnsibleFest San Francisco 2013
