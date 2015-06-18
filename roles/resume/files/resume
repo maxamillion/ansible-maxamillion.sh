@@ -70,24 +70,24 @@ Education:
     - GNU/Linux user since Red Hat Linux 7.0
 
 Affiliations:
-    - Fedora QA community member
-    - Fedora Packager
-    - Fedora SIGs: EPEL, XFCE, KDE, Cloud, Spins, Ruby, Go
-    - Fedora Ambassador
-    - Red Hat Shadowman Tattoo on left forearm
+  - Fedora QA community member
+  - Fedora Packager
+  - Fedora SIGs: EPEL, XFCE, KDE, Cloud, Spins, Ruby, Go
+  - Fedora Ambassador
+  - Red Hat Shadowman Tattoo on left forearm
 
 Conference Presentations:
-    - Red Hat Summit 2015
-      Immutable Infrastructure, Containers, and the future of Microservices
-    - Red Hat Summit 2014
-      Software collections: Keeping pace without sacrificing platform stability
-    - AnsibleFest San Francisco 2013
-      Interstellar Communications: Deploying OpenShift Origin with Ansible
-    - Red Hat Summit 2013
-      Implementing a Distributed Private PaaS with OpenShift Enterprise
-    - Red Hat Summit 2012
-      Oracle RAC 11gR2 on Red Hat Enterprise Linux 6
+  - Red Hat Summit 2015
+    Immutable Infrastructure, Containers, and the future of Microservices
+  - Red Hat Summit 2014
+    Software collections: Keeping pace without sacrificing platform stability
+  - AnsibleFest San Francisco 2013
+    Interstellar Communications: Deploying OpenShift Origin with Ansible
+  - Red Hat Summit 2013
+    Implementing a Distributed Private PaaS with OpenShift Enterprise
+  - Red Hat Summit 2012
+    Oracle RAC 11gR2 on Red Hat Enterprise Linux 6
 
-Writing:
-    - Implementing OpenShift
-      Published by PacktPub: ISBN13 9781782164722
+Publications:
+  - Implementing OpenShift
+    Published by PacktPub: ISBN13 9781782164722
