@@ -113,6 +113,7 @@
     - golang-vet
     - golang-gotype
     - cryptsetup
+    - goaccess
 
  
   tags:
