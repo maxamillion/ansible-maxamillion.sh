@@ -1,7 +1,7 @@
-ansible-maxamillion.so
+ansible-maxamillion.sh
 ======================
 
-Ansible playbooks and roles for maxamillion.so
+Ansible playbooks and roles for maxamillion.sh
 
 I have a machine that I use for various random tasks and I manage
 it with ansible. These are the bits, posted on github because ... why not?

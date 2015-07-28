@@ -1,5 +1,4 @@
 ---
-# main.yml - Common Tasks for maxamillion.so
 #
 
 - name: Install httpd for resume hosting

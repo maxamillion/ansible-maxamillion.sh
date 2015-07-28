@@ -1,5 +1,5 @@
 ---
-# main.yml - Common Tasks for maxamillion.so
+# main.yml - Common Tasks for maxamillion.sh
 #
 
 - include: prereqs.yml
