@@ -107,8 +107,6 @@
     - asciidoc
     - asciidoc-doc
     - golang
-    - golang-vim
-    - golang-gotype
     - cryptsetup
     - goaccess
     - fpaste
