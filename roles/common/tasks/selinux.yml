@@ -2,7 +2,7 @@
 # selinux.yml - set system wide selinux stuff
 
 - name: Ensure selinux policy installed
-  yum: pkg={{ item }} state=installed
+  dnf: pkg={{ item }} state=installed
   with_items:
     - selinux-policy
     - selinux-policy-targeted

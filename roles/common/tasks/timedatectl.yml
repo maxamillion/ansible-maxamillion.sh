@@ -2,7 +2,7 @@
 # timedatectl.yml - configure time/ntp
 
 - name: Install Chrony
-  yum: pkg={{ item }} state=installed
+  dnf: pkg={{ item }} state=installed
   with_items:
     - chrony
 

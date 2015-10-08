@@ -2,7 +2,7 @@
 # sshd.yml - configure sshd
 
 - name: Ensure openssh-server is installed
-  yum:
+  dnf:
     pkg: openssh-server
     state: installed
 

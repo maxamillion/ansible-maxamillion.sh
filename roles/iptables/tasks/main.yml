@@ -9,7 +9,7 @@
     enabled: no
 
 - name: Install iptables Packages
-  yum: pkg={{ item }} state=installed
+  dnf: pkg={{ item }} state=installed
   with_items:
     - iptables
     - iptables-services
