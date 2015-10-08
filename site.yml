@@ -10,5 +10,6 @@
    - role: common
    - role: docker
    - role: resume
+   - role: keybase
    - role: users
    - role: iptables
