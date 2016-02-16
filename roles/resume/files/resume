@@ -33,8 +33,8 @@ Experience:
     - Develop automated utilities to make setup, configuration, assessment
       and maintenance of Oracle Database solutions on Red Hat Enterprise
       Linux easier for customers.
-    - Research performance tuning solutions among an array of different 
-      server and storage configurations as well as next generation 
+    - Research performance tuning solutions among an array of different
+      server and storage configurations as well as next generation
       technologies that can be used in Dell Enterprise Solutions offerings.
 
   University Computer Services - Sam Houston State University
@@ -60,7 +60,10 @@ Education:
       Programming Languages, Databases, Data Structures, Software
       Engineering, Cryptography
 
-  RHCE - Red Hat Enterprise Linux version 6
+  RHCE
+    - With additional Certificates of Expertise in:
+      - Server Hardening
+      - Systems Administrator in Red Hat OpenStack
     - Certificate Number: 110-008-810
 
   Qualifications:
@@ -74,9 +77,12 @@ Affiliations:
   - Fedora Packager
   - Fedora SIGs: EPEL, XFCE, KDE, Cloud, Spins, Ruby, Go
   - Fedora Ambassador
+  - CentOS SIGs: Cloud, Atomic, PaaS
   - Red Hat Shadowman Tattoo on left forearm
 
 Conference Presentations:
+  - DevConf.cz 2016
+    The Magical Future (Immutable Infra, Containers, and Microservices)
   - Texas Linux Fest 2015
     Immutable Infrastructure, Containers, and the future of Microservices
   - Red Hat Summit 2015
