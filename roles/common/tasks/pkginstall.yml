@@ -27,6 +27,7 @@
     - nmap
     - sysstat
     - vim-enhanced
+    - mosh
     - tmux
     - screen
     - git
@@ -111,6 +112,6 @@
     - goaccess
     - fpaste
 
- 
+
   tags:
     - pkginstall
