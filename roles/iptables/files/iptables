@@ -7,6 +7,8 @@
 :SSH_CHECK - [0:0]
 -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 -A INPUT -p tcp --dport 22 -m state --state NEW -j SSH_CHECK
+# Mosh
+-A INPUT -p udp -m multiport --dports 60000:61000 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 5099 -j ACCEPT
 -A INPUT -p icmp -j ACCEPT
