@@ -11,6 +11,7 @@
    - role: docker
    - role: keybase
    - role: users
+   - role: tuned
    - role: iptables
    - role: resume
      tags:
