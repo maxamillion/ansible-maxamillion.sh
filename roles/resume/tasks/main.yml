@@ -5,6 +5,8 @@
   dnf: pkg="{{item}}" state=installed
   with_items:
     - httpd
+    - mod_ssl
+    - python-certbot-apache
 
 - name: Start and enable httpd
   service:
