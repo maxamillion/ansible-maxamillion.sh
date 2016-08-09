@@ -10,6 +10,7 @@
 # Mosh
 -A INPUT -p udp -m multiport --dports 60000:61000 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 443 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 5099 -j ACCEPT
 -A INPUT -p icmp -j ACCEPT
 -A INPUT -i lo -j ACCEPT
