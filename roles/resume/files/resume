@@ -81,6 +81,10 @@ Affiliations:
   - Red Hat Shadowman Tattoo on left forearm
 
 Conference Presentations:
+  - Flock to Fedora 2016
+    Introducing Fedora Docker Layered Image Builds
+  - Texas Linux Fest 2016
+    Creating a Reproducible Build System for Docker Images
   - Red Hat Summit 2016
     From source to RPM in 120 minutes (Lab Session)
   - DevConf.cz 2016
