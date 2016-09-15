@@ -4,3 +4,6 @@
   service:
     name: docker
     state: restarted
+
+
+# vim:ft=ansible:

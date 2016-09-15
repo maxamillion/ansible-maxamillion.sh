@@ -28,3 +28,6 @@
     owner: admiller
     group: admiller
     mode: 0644
+
+
+# vim:ft=ansible:

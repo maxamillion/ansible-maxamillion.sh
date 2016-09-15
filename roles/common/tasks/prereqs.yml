@@ -9,3 +9,6 @@
     - yum-utils
     - python-simplejson
     - libselinux-python
+
+
+# vim:ft=ansible:

@@ -17,3 +17,6 @@
 
 - name: Set ntp enabled
   command: /usr/bin/timedatectl set-ntp true
+
+
+# vim:ft=ansible:

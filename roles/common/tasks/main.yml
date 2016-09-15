@@ -7,3 +7,6 @@
 - include: pkginstall.yml
 - include: timedatectl.yml
 - include: sshd.yml
+
+
+# vim:ft=ansible:

@@ -16,3 +16,6 @@
    - role: resume
      tags:
        - resume
+
+
+# vim:ft=ansible:

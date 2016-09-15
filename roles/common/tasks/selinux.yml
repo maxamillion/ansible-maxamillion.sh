@@ -13,3 +13,6 @@
   selinux:
     policy: targeted
     state: enforcing
+
+
+# vim:ft=ansible:

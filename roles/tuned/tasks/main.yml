@@ -13,3 +13,6 @@
     name: tuned
     state: started
     enabled: yes
+
+
+# vim:ft=ansible:

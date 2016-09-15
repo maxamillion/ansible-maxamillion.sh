@@ -22,3 +22,6 @@
 
 - name: Start and Enable iptables
   service: name=iptables state=started enabled=yes
+
+
+# vim:ft=ansible:

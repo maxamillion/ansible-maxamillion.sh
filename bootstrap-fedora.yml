@@ -3,3 +3,6 @@
   tasks:
     - name: install python and deps for ansible modules
       raw: dnf install -y python2 python2-dnf libselinux-python libsemanage-python
+
+
+# vim:ft=ansible:

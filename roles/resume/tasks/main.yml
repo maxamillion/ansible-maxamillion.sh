@@ -20,3 +20,6 @@
     dest: /var/www/html/resume
   notify: restart httpd
 
+
+
+# vim:ft=ansible:

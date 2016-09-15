@@ -23,3 +23,6 @@
     - restart sshd
   tags:
     - sshd
+
+
+# vim:ft=ansible:

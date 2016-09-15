@@ -21,3 +21,6 @@
 - name: Install EPEL RPM
   shell: rpm -Uvh /tmp/epel-release-6-8.noarch.rpm
   when: epel_check.rc != 0
+
+
+# vim:ft=ansible:

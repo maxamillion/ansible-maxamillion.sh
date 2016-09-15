@@ -10,3 +10,6 @@
 
 - name: Start and Enable ntpd 
   service: name=ntpd state=started enabled=yes
+
+
+# vim:ft=ansible:

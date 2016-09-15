@@ -5,3 +5,6 @@
     name: sshd
     state: restarted
 
+
+
+# vim:ft=ansible:

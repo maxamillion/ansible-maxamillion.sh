@@ -3,3 +3,6 @@
     name: httpd
     state: restarted
     enabled: yes
+
+
+# vim:ft=ansible:
