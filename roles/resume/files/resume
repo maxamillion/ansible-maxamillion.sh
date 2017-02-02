@@ -8,8 +8,16 @@ Email: maxamillion@fedoraproject.org            Website: https://maxamillion.sh
 Experience:
   Red Hat Inc. - Fedora Engineering
   Fort Worth, TX (Remote)
+  Position: Principal Software Engineer
+  November 2016 - Current
+    - Release Engineering Tooling
+    - Fedora Project Atomic, Fedora Docker
+    - Release Automation for Fedora: .Next, Modularity, Atomic
+
+  Red Hat Inc. - Fedora Engineering
+  Fort Worth, TX (Remote)
   Position: Senior Software Engineer
-  April 2015 - Current
+  April 2015 - November 2016
     - Release Engineering
     - Project Atomic Fedora, Fedora Docker
     - Release Automation for Fedora.Next and Atomic
@@ -82,6 +90,16 @@ Affiliations:
   - Red Hat Shadowman Tattoo on left forearm
 
 Conference Presentations:
+  - Red Hat Summit 2017
+    - Birds of a Feather: Fedora Friends
+    - Lab: From source to RPM in 120 Minutes
+    - Ansible All The Things
+  - SCaLE 15x
+    Creating a Reproducible Build System for Docker Images
+  - DevConf.cz 2017
+    - Fedora Layered Image Build System: Lessons Learned
+    - Fedora Atomic Host Two-Week Release: Past and Future
+    - The Story of Three Distros: Better Together (co-presenter)
   - Flock to Fedora 2016
     Introducing Fedora Docker Layered Image Builds
   - Texas Linux Fest 2016
